@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Age Calculator App</title>
+
+  <!-- LINKING SCRIPTS -->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+  <!-- IMPORTING FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <div id="content-container">
+      <div id="input-container">
+        <div class="input-unit" id="days">
+          <label for="day-input" class="above-input">DAY</label>
+          <input type="text" id="day-input" placeholder="DD">
+          <p class="error-message" id="d"></p>
+        </div>
+        <div class="input-unit" id="months">
+          <label for="month-input" class="above-input">MONTH</label>
+          <input type="text" id="month-input" placeholder="MM">
+          <p class="error-message" id="m"></p>
+        </div>
+        <div class="input-unit" id="years">
+          <label for="year-input" class="above-input">YEAR</label>
+          <input type="text" id="year-input" placeholder="YYYY">
+          <p class="error-message" id="y"></p>
+        </div>
+      </div>
+
+      <div id="button-container">
+        <hr>
+        <button id="submit" onclick="validateDate()"></button>
+        <hr id="deletable">
+      </div>
+      
+      <div id="output-container">
+        <div class="result-unit">
+          <p class="result" id="no-of-years">--</p>
+          <p>years</p>
+        </div>
+        <div class="result-unit">
+          <p class="result" id="no-of-months">--</p>
+          <p>months</p>
+        </div>
+        <div class="result-unit">
+          <p class="result" id="no-of-days">--</p>
+          <p>days</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/SushiOnToast">SushiOnToast</a>.
+    </p>
+  </footer>
+</body>
+</html>

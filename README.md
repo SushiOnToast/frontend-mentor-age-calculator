@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Available on github pages](https://sushiontoast.github.io/frontend-mentor-newsletter-sign-up-challenge/)
+- Solution URL: [Available on github pages](https://sushiontoast.github.io/frontend-mentor-age-calculator/)
 
 ## My process
 
